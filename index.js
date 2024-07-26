@@ -4,17 +4,19 @@ const myCounter = ["One",
                   "Two",
                   "Three"]
 
+const wrapper = document.getElementById('sectionWrapper')
+const innerHTMLString = ""
+
 let myCounter1 = posts[0].likes
 let myCounter2 = posts[1].likes
 let myCounter3 = posts[2].likes
 
-const wrapper = document.getElementById('sectionWrapper')
-wrapper.innerHTML = ""
+
 buildCard(posts)
 
 function buildCard(posts) {
     for (let i = 0; i < posts.length; i++){
-      wrapper.innerHTML += `
+      innerHTMLString += `
       <section class="section-top">
           <img src=${posts[i].avatar} class="avatar" alt="A small image of ${posts[i].name}.">
           <p><span>${posts[i].name}</span><br>${posts[i].location}</p>
@@ -35,6 +37,7 @@ function buildCard(posts) {
           <div class="spacer"></div>
       `
     }
+    wrapper.innerHTML = innerHTMLString
 }
 
 function incrementLikesOne() {
