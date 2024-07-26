@@ -5,7 +5,7 @@ const myCounter = ["One",
                   "Three"]
 
 const wrapper = document.getElementById('sectionWrapper')
-const innerHTMLString = ""
+let innerHTMLString = ""
 
 let myCounter1 = posts[0].likes
 let myCounter2 = posts[1].likes
@@ -35,7 +35,7 @@ function buildCard(posts) {
               <p><span>${posts[i].username}</span> ${posts[i].comment}</p>
           </div>
           <div class="spacer"></div>
-      `
+          `
     }
     wrapper.innerHTML = innerHTMLString
 }
