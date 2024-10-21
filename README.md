@@ -9,7 +9,7 @@ A simple project that mimics Instagram.  This is a clone using old pictures from
 
 Click on the image below to see the live website.
 
-[![application images](https://github.com/tiptonspiderj/Digital-business-card/blob/main/images/Screenshot.png)](https://tiptonspiderj1-digital-business-card.netlify.app/)
+[![application images](https://github.com/tiptonspiderj/Oldagram/blob/main/images/Screenshot.png)](https://tiptonspiderj1-oldagram.netlify.app/)
 
 ### Installing for Windows
 
