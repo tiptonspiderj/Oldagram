@@ -1,9 +1,9 @@
-# Digital Business Card
-This was a fun project for building a digital business card with links to my e-mail, LinkedIn profile, and my portfolio website.
+# Oldagram
+This was a fun project building a clone of Instagram.
 
 ## Description
 
-A unique way of carrying a business card.  I can now just text a link to people and they will have most of my contact information.  Maybel later I will add my phone number to this project.
+A simple project that mimics Instagram.  This is a clone using old pictures from famous artists.  There are only three cards because the data is not coming from a database.  The data is in a separate file called "data.js"  This project was made while I was learning JavaScript through Scrimba.  
 
 ## Getting Started
 
@@ -17,17 +17,15 @@ You can make a clone of this repository and then extract all of the files into o
 
 ### Dependencies
 
-This project was made with React and Webpack as the compiler.  It also use npm to manage all of the dependencies required.  I would now recommend using Vite as the compiler instead of Webpack.  It's quicker than Webpack.  When you are developing a project, it makes a big difference in the amount of time spent waiting to update your changes as you progress through your project.  
+None
 
 ## Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Background Color | ![#23252c](https://imageplaceholder.net/10x10/23252c) #23252c |
-| Card Background Color | ![#1a1b21](https://imageplaceholder.net/10x10/1a1b21) #1a1b21 |
-| Text Color | ![#dcdcdc](https://imageplaceholder.net/10x10/dcdcdc) #dcdcdc |
-| Button Color | ![#5093e2](https://imageplaceholder.net/10x10/5093e2) #5093e2 |
-| Button Color | ![#f5f5f5](https://imageplaceholder.net/10x10/f5f5f5) #f5f5f5 |
+| Background Color | ![#ffffff](https://imageplaceholder.net/10x10/ffffff) #ffffff |
+| Secondary Background Color | ![#ededed](https://imageplaceholder.net/10x10/ededed) #ededed |
+| Text Color | ![#000000](https://imageplaceholder.net/10x10/000000) #000000 |
 
 
 ## Authors
@@ -49,11 +47,9 @@ If you have any feedback, please reach out to me at <tiptonspiderj1@aol.com>
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Scrimba](https://img.shields.io/badge/scrimba-2B283A?style=for-the-badge&logo=scrimba&logoColor=white)
 
